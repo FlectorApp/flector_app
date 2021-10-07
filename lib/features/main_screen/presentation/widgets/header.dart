@@ -25,7 +25,7 @@ class Header extends StatelessWidget {
             },
           ),
         Text(
-          'Dashboard',
+          'Flector',
           style: Theme.of(context).textTheme.headline6,
         ),
         const Spacer(),

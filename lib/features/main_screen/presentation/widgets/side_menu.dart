@@ -15,10 +15,7 @@ class SideMenu extends StatelessWidget {
       child: ListView(
         children: [
           DrawerHeader(
-            child: Text(
-              'Flector',
-              style: Theme.of(context).textTheme.headline6,
-            ),
+            child: Image.asset('assets/images/logo.jpg'),
           ),
           DrawerListTile(
             title: 'Dashboard',
@@ -34,11 +31,6 @@ class SideMenu extends StatelessWidget {
               launch('https://adaflect.com');
             },
           ),
-          // DrawerListTile(
-          //   title: 'FAQ',
-          //   icon: Icons.help_center,
-          //   press: () {},
-          // ),
           DrawerListTile(
             title: 'Settings',
             icon: Icons.settings,
